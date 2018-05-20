@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Users</title>
+    <link rel="stylesheet" type="text/css" href="firstclickable.css">
+</head>
+<body>
+    <div "mainwrapper">
+        <div class="topbar">
+            <h2>Dashboard</h2>
+            <button id="loginbutton" href="login.html">Login</button>
+        </div>
+        <div class="infoblockwrapper">
+            <div class="greyblock">
+                <h3>Manage users</h3>
+                <button class="adduser">Add</button>
+            </div>
+        </div>
+        <table class="usermanagement">
+            <thead>
+                <tr>
+                    <th>ID#</th>
+                    <th>Name</th>
+                    <th>email</th>
+                    <th>Created at...</th>
+                    <th>User level</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Smith</td>
+                    <td>johnnyS@somewhere</td>
+                    <td>1776 AD</td>
+                    <td>admin</td>
+                    <td>edit, <a href="#remove"onclick="removeuser()">remove</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Smith</td>
+                    <td>janeyS@somewhere</td>
+                    <td>1001 AD</td>
+                    <td>contributor</td>
+                    <td>edit, <a href="#remove"onclick="removeuser()">remove</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jane Smith</td>
+                    <td>janeyS@somewhere</td>
+                    <td>1001 AD</td>
+                    <td>contributor</td>
+                    <td>edit, <a href="#remove"onclick="removeuser()">remove</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Jane Smith</td>
+                    <td>janeyS@somewhere</td>
+                    <td>1001 AD</td>
+                    <td>contributor</td>
+                    <td>edit, <a href="#remove"onclick="removeuser()">remove</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    
+</body>
+
+<script>
+
+function removeuser() {
+    alert("Are you sure?");
+}
+
+</script>
+
+
+
+</html>
